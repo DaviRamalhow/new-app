@@ -1,10 +1,9 @@
 import CleanLayout from "../layouts/CleanLayout.vue";
 import MainLayout from "../layouts/MainLayout.vue";
-
 import AboutView from "../views/AboutView.vue";
 import HomeView from "../views/HomeView.vue";
-
 import NotFound from "../views/NotFound.vue";
+import LoginPage from "../views/LoginPage.vue";
 
 export const routes = [
   {
@@ -24,13 +23,21 @@ export const routes = [
         component: AboutView,
         meta: {},
       },
+
     ],
   },
   {
     path: "/",
     name: "CleanLayout",
     component: CleanLayout,
-    children: [],
+    children: [
+      {
+        path: "/login",
+        name: "LoginPage",
+        component: LoginPage,
+        meta: {},
+      },
+    ],
   },
   {
     path: "/:pathMatch(.*)*",

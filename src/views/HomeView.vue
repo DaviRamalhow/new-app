@@ -1,7 +1,9 @@
 <template>
   <div class="home-view">
-    <img class="w-200" alt="Vue Logo" src="@/assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <div class="text-4xl">
+      My Own Page
+    </div>
+    
   </div>
 </template>
 
