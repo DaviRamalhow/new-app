@@ -1,9 +1,10 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "./assets/css/index.css";
 import utils from "./utils";
 import router from "./router";
 import store from "./store";
+
+import "./assets/css/index.css";
 
 import components from "./components";
 
