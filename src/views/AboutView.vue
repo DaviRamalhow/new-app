@@ -1,10 +1,11 @@
 <template>
-  <div class="about-view">
-    <h1>This is an about page</h1>
+  <div class="about-view bg-slate-900 min-h-screen min-w-sreen flex items-center justify-center">
+    <div class="text-white text-4xl">This is an about page</div>
   </div>
 </template>
 
 <script lang="ts" setup>
+
 </script>
 
 <style lang="scss" scoped>

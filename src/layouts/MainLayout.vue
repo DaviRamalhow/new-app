@@ -1,7 +1,7 @@
 <template>
-  <div class="text-center">
+  <div class="text-center bg-slate-900 " >
     <nav class="py-7">
-      <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link>
+      <router-link to="/" class="px-2">Home</router-link> <router-link to="/about" class="px-2">About</router-link>
     </nav>
     <router-view class="intro-x" v-slot="{ Component, route }">
       <component :is="Component" :key="route.path" />
@@ -16,10 +16,10 @@
 nav {
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: rgb(83, 83, 83);
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: white;
     }
   }
 }
