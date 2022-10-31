@@ -1,9 +1,8 @@
 <template>
-  <div class="home-view bg-slate-900 min-h-screen min-w-screen">
-    <div class="">
-      <div class="bg-black"></div>
+  <div class="home-view bg-white min-h-screen min-w-screen flex items-center justify-center">
+    <div class="flex">
+        
     </div>
-    
   </div>
 </template>
 
